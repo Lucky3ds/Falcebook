@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	padding: 0; 	
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+html, body{
+	height:100%¨;
+}
+.clear{
+	clear: both;
+}
+
+.center{
+	max-width: 1200px;
+	padding: 30px 5px;
+	width: 100%;
+	margin:0 auto;	
+
+}
+.logo{
+   float: left;
+   color: white;
+}
+.logo h2{
+	font-size: 29px;
+}
+header{
+	padding: 0 2%;
+	background-color: #4169E1;
+}
+
+form.form-login{
+ float: right;
+}
+
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+.form-element p{
+	color: white;
+	font-size: 14px;
+}
+.form-element[type=email],
+.form-element[type=password]{
+	margin-bottom: 5px;
+}
+
+.form-element input[type=submit]{
+	cursor: pointer;
+	border: 0;
+	background:#085ABF;
+	color: white;
+	padding: 3px 5px;
+}
+.form-element input[type=submit]:hover{
+
+	background-color:#174291;
+}
+.form-2{
+
+	padding:5px;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+
+
+}
+.formulario-2{
+	font-size: 20px;
+	text-align: center;
+
+}
+.form-2 p{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+.formulario-2 input[type=text],.formulario-2 input[type=E-mail] ,.formulario-2 input[type=password]{
+	padding-top: 5px;
+	float: center;
+	cursor: pointer;
+	height: 30px;
+	width: 30%;
+}
+.formulario-2 input[type=submit]{
+	font-size: 18px;
+	margin-top: 15px;
+	
+}
+.formulario-2 input[type=submit]{
+	border: none;
+	background-color:#4169E1;
+	height: 45px;
+	width: 90px;
+}
+.formulario-2 input[type=submit]:hover{
+	background-color:#174291;
+	cursor: pointer; 
+}
+section {
+	padding: 0 2%;
+	max-width: 1200px;
+	margin-top: 40px;
+	width: 100%;
+	
+}
+section > h2,h3{
+	margin: 15px;
+	padding:0 2%;
+	float: center;
+	text-align: center;
+}
+
+.p{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 20px;
+	padding-top:50px;
+	padding-bottom: 150px;
+}
+.p{
+	margin-left:10px;
+	margin-right:10px;
+}
+.p-2{
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+.final{
+	max-width: 1920px;
+	background-color:#4169E1; 
+	padding: 20px;
+}
+.final p,a{
+	margin: 15px 0;
+	text-align: center;
+}
